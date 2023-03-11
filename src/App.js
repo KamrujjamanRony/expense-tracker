@@ -1,9 +1,16 @@
+import Form from "./components/Form";
+import Layout from "./components/Layout";
+import TopCard from "./components/TopCard";
+import Transactions from "./components/Transactions/Transactions";
+
 function App() {
-    return (
-        <div className="App">
-            <div>Hello world</div>
-        </div>
-    );
+  return (
+    <Layout>
+      <TopCard />
+      <Form />
+      <Transactions />
+    </Layout>
+  );
 }
 
 export default App;
