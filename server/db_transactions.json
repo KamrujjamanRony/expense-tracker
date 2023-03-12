@@ -1,16 +1,16 @@
 {
   "transactions": [
     {
-      "name": "my book",
-      "type": "income",
-      "amount": 555555,
-      "id": 1
+      "name": "Bazar",
+      "type": "expense",
+      "amount": 3000,
+      "id": 5
     },
     {
-      "name": "my book 1",
-      "type": "expense",
-      "amount": 888888,
-      "id": 2
+      "name": "Tuition",
+      "type": "income",
+      "amount": 3500,
+      "id": 6
     }
   ]
 }
